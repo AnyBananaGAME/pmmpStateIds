@@ -1,0 +1,5 @@
+name: StateIdsTest
+version: 0.0.1
+api: 5.0.0
+main: bonanoo\Main
+author: bonanoo
