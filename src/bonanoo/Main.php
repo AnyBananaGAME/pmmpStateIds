@@ -9,10 +9,8 @@ use pocketmine\block\VanillaBlocks;
 use pocketmine\network\mcpe\convert\TypeConverter;
 
 class Main extends PluginBase{
-    private $allBlocks = [];
 
     public function onLoad(): void{
-        $this->allBlocks = VanillaBlocks::getAll();
         $blockStates = $this->generateBlockStates();
         $jsonContent = json_encode($blockStates, JSON_PRETTY_PRINT);
 
